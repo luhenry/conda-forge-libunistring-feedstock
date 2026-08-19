@@ -23,7 +23,7 @@ requirements:
     - {{ compiler('c') }}
     - make
   host:
-    - libiconv # [osx]
+    - libiconv  # [osx]
 
 test:
   commands:
